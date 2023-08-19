@@ -1,0 +1,40 @@
+test_f1_score_comp 0.8290231954381699
+test_f1_score_rel_bool 0.6979650769020467
+test_f1_score_rel_type 0.5766536964980545
+test_f1_score_avg 0.701213989612757
+-----------------------------------------------------------------------------
+test components classification report:
+               precision    recall  f1-score   support
+
+           0      0.872     0.777     0.822       489
+           1      0.815     0.901     0.856       152
+           2      0.879     0.819     0.848       204
+           3      0.529     0.748     0.620       123
+           4      1.000     1.000     1.000         1
+
+    accuracy                          0.802       969
+   macro avg      0.819     0.849     0.829       969
+weighted avg      0.821     0.802     0.807       969
+
+test relations identification report:
+               precision    recall  f1-score   support
+
+           0      0.982     0.983     0.983      9008
+           1      0.419     0.408     0.413       272
+
+    accuracy                          0.966      9280
+   macro avg      0.701     0.695     0.698      9280
+weighted avg      0.966     0.966     0.966      9280
+
+test relations classification report:
+               precision    recall  f1-score   support
+
+           1      0.984     0.925     0.953       265
+           2      0.130     0.429     0.200         7
+
+    accuracy                          0.912       272
+   macro avg      0.557     0.677     0.577       272
+weighted avg      0.962     0.912     0.934       272
+
+-----------------------------------------------------------------------------
+Performance on test dataset, scores_rel_bool_f1_score: 0.6979650769020467
